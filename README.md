@@ -78,14 +78,6 @@ vcs: 'git'                         # Version control system to use (default is '
 Check for files unchanged in the current directory:
 
 ```bash
-vendor/bin/timelock check
-```
-
-### Custom Configuration
-
-Use a specific configuration file:
-
-```bash
 vendor/bin/timelock check --config=/path/to/your-config.yml
 ```
 
@@ -94,7 +86,7 @@ vendor/bin/timelock check --config=/path/to/your-config.yml
 Get the output in JSON format:
 
 ```bash
-vendor/bin/timelock check --output-format=json
+vendor/bin/timelock check --config=/path/to/your-config.yml --output-format=json
 ```
 
 ### Example Output

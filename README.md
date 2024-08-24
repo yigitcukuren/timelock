@@ -20,7 +20,6 @@
 - **Author Exclusion**: Exclude files from specific authors.
 - **Path and Regex Exclusions**: Exclude files based on paths or regex patterns.
 - **Output Formats**: Supports both table and JSON output formats.
-- **Customizable**: Easily extendable to support other version control systems.
 
 ## Installation
 

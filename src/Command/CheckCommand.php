@@ -47,7 +47,8 @@ class CheckCommand extends Command
             ->addArgument(
                 'path',
                 InputArgument::OPTIONAL,
-                'The directory path to check'
+                'The directory path to check',
+                '.'
             )
             ->addOption(
                 'config',

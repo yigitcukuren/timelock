@@ -108,7 +108,6 @@ Output:
 | file2.txt  | Jane Doe  | 2019-03-15 15:30:00 | 3       |
 +------------+-----------+---------------------+---------+
 
-Check completed.
 Execution time: 0.42 seconds
 ```
 

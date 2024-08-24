@@ -2,7 +2,7 @@
     "name": "timelock/timelock",
     "description": "A PHP package to find files unchanged since a specified date.",
     "type": "library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "autoload": {
         "psr-4": {

@@ -11,7 +11,7 @@ foreach ([__DIR__ . '/../../../autoload.php', __DIR__ . '/../vendor/autoload.php
 use TimeLock\Command\CheckCommand;
 use Symfony\Component\Console\Application;
 
-$application = new Application('TimeLock', '0.1.0');
+$application = new Application('TimeLock', '0.1.1');
 
 // Register your command here
 $application->add(new CheckCommand(new VCSFactory));

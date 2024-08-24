@@ -1,0 +1,38 @@
+{
+    "name": "timelock/timelock",
+    "description": "A PHP package to find files unchanged since a specified date.",
+    "type": "library",
+    "version": "0.1.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TimeLock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yigit Cukuren",
+            "email": "code@yigit.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "symfony/yaml": "^7.1",
+        "symfony/console": "^7.1",
+        "symfony/process": "^7.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.11",
+        "phpunit/phpunit": "^11.3",
+        "friendsofphp/php-cs-fixer": "^3.62"
+    },
+    "scripts": {
+        "check-cs": "php-cs-fixer fix --dry-run --diff",
+        "fix-cs": "php-cs-fixer fix",
+        "analyse": "phpstan analyse",
+        "test": "phpunit"
+    },
+    "bin": [
+        "bin/timelock"
+    ]
+}

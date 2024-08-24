@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+use TimeLock\VCSFactory;
+foreach ([__DIR__ . '/../../../autoload.php', __DIR__ . '/../vendor/autoload.php'] as $file) {
+    if (file_exists($file)) {
+        require $file;
+        break;
+    }
+}
+
+use TimeLock\Command\CheckCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application('TimeLock', '0.1.0');
+
+// Register your command here
+$application->add(new CheckCommand(new VCSFactory));
+
+// Run the application
+$application->run();

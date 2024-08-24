@@ -1,0 +1,8 @@
+since: 5 years ago
+excludeAuthors:
+  - Jane Doe
+exclude:
+  - vendor/
+excludeRegex:
+  - '/.*Test\.php$/'
+vcs: git

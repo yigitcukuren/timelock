@@ -1,0 +1,5 @@
+vcs: git
+since: "5 years ago"
+exclude:
+  - vendor/
+  - tests/
